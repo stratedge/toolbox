@@ -11,7 +11,7 @@ class StringUtils
      * @param  bool $capitalize_first
      * @return string
      */
-    function toCamelCase($str, $capitalize_first = false)
+    public function static toCamelCase($str, $capitalize_first = false)
     {
         $parts = explode("_", $str);
 
@@ -30,7 +30,7 @@ class StringUtils
      * @param  string  $str
      * @return string
      */
-    function toSnakeCase($str)
+    public function static toSnakeCase($str)
     {
         preg_match_all('/[A-Z][^A-Z]+/', ucfirst($str), $matches);
         
