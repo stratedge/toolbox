@@ -1,6 +1,15 @@
 {
     "name": "stratedge/toolbox",
     "description": "A small collection of common and not-so-common utility functions",
+    "type": "library",
+    "keywords": [
+        "tools",
+        "utility",
+        "utilities",
+        "helper",
+        "helpers"
+    ],
+    "license": "MIT",
     "authors": [
         {
             "name": "Jarret Byrne",
