@@ -1,0 +1,17 @@
+{
+    "name": "stratedge/toolbox",
+    "description": "A small collection of common and not-so-common utility functions",
+    "authors": [
+        {
+            "name": "Jarret Byrne",
+            "email": "jarret@solvomedia.com",
+            "homepage": "http://www.jarretbyrne.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stratedge\\Toolbox\\": "src/"
+        }
+    }
+}
