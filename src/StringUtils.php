@@ -26,6 +26,7 @@ class StringUtils
 
     /**
      * Given a string that is camelcased, will convert the string to snake-case
+     * 
      * @param  string  $str
      * @return string
      */
