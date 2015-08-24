@@ -8,7 +8,7 @@ class StringUtils
      * optionally with the first character capitalized
      * 
      * @param  string  $str
-     * @param  bool $capitalize_first
+     * @param  bool    $capitalize_first
      * @return string
      */
     public static function toCamelCase($str, $capitalize_first = false)
