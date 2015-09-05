@@ -11,6 +11,10 @@ class NumberUtils
      */
     public static function isOnlyNumbers($value)
     {
+        if (is_int($value)) {
+            return true;
+        }
+
         if (is_numeric($value)) {
             return preg_match('/^\d+$/', $value) === 1;
         }
